@@ -10,8 +10,8 @@ for (let index = 0; index < othersElements.length; index++) {
 console.log('for', newArray);
 /********************  */
 const respuesta = elements.concat(othersElements);
-const respuesta2 = elements.concat(...elements,...othersElements);
-const respuesta3 = elements.concat(...elements,random);
+const respuesta2 =[...elements,...othersElements];
+const respuesta3 = [...elements,...'random'];
 
 console.log('for', newArray);
 console.log('respuesta', respuesta);

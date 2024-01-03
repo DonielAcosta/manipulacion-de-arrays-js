@@ -41,4 +41,4 @@ console.log("map-flat", respuesta);
   const respuesta3 = Object.values(calendars).flatMap(item => {
       return item.map(date => date.startDate);
   });
-//   console.log(rta3);
+  console.log(respuesta3);
